@@ -1,4 +1,8 @@
 import './App.css';
+import { Cart } from './components/Cart';
+// import Cart from './components/Cart';
+// import { Cart } from './components/Cart/Cart';
+import { Counter } from './components/Counter';
 import { FlexableListSection } from './components/FlexableListSection';
 import ProductCard from './components/ProductCard';
 import type { Product } from './types/product';
@@ -23,6 +27,16 @@ const products: Product[] = [
 function App() {
   return (
     <div>
+      <Cart />
+
+      <hr />
+
+      <Counter />
+
+      <hr />
+
+      <Counter />
+
       <main>
         <FlexableListSection
           title='Герои продаж'
