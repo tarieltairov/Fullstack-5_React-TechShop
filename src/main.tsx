@@ -1,6 +1,7 @@
 import { createRoot } from 'react-dom/client';
+import { App } from './useEffect/App';
 
-import App from './App.tsx';
+// import App from './App.tsx';
 
 // App - корневой компонент, c чего начинается все приложение
 
